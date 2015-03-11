@@ -9,7 +9,7 @@ int seven_segment(int number, int dot)
 {
     switch (number)
     {
-                      ABCDEFGd
+    //                ABCDEFGd
     case 0: return ~(B11111100 | dot);
     case 1: return ~(B01100000 | dot);
     case 2: return ~(B11011010 | dot);
